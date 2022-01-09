@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.container > li {
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  margin: 10px 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container > li {
+    width: 100%;
+  }
+}

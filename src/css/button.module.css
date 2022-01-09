@@ -1,0 +1,20 @@
+.youtube {
+  background: transparent;
+  border: none;
+}
+
+.youtube i {
+  color: red;
+  font-size: 3rem;
+}
+.logo {
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+}

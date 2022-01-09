@@ -1,0 +1,30 @@
+.card {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 15px 5px #f0f0f0;
+  box-shadow: 5px 5px 15px 5px #f0f0f0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+.thumbnail {
+  max-width: 320px;
+  height: 180px;
+}
+
+.description {
+  margin: 20px;
+  text-align: left;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.channel_name {
+  color: rgb(96, 96, 96);
+}
